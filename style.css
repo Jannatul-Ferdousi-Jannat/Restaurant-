@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* start top bar */
+.top_bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    align-items: center;
+}
+.top_bar button{
+    background-color: rgb(0, 255, 13);
+    color: white;
+    padding: 7px,10px;
+    width: 100px;
+    height:35px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.top_bar button:hover{
+    background-color: rgb(40, 198, 40);
+}
+.top_bar h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+
+}
+/* start header bar */
+
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-right: 200px;
+}
+.menu ul{
+    display: flex;
+
+}
+.menu ul li{
+    margin: 15px;
+}
+.menu ul li a{
+    font-size: 20px;
+    color: white;
+}
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.592);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+}
+.menu li a:hover{
+    color: rgb(242, 163, 66);
+
+}
+.header{
+
+    background-image: url(./Library/images/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+/* .overlay{
+    width: 100%;
+    height: 800px;
+    color: rgb(10, 6, 6);
+} */
+.middle_description{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.first_para{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.second_para{
+    font-size: 30px;
+
+
+}
+.second_logo{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 200px;
+}
+/* start description */
+
+.head_one{
+    font-size: 35px;
+    color:rgb(47, 45, 45);
+    font-weight: bold;
+}
+.head_two{
+    font-size: 25px;
+    color: rgb(139, 134, 134);
+    margin-bottom: 50px;
+}
+
+
+.heading{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.image_one{
+    width:100px;
+    height: 100px;
+    margin-right: 13px;
+
+}
+.image_oneno{
+    
+    margin-left: 10px;
+}
+.image_onete{
+    width:413px;
+    height:120px;
+}
+
+.imogeo{
+    margin-right: 50px;
+    /* width: 150px;
+    height: 70px; */
+
+   
+}
+
+.imoge{
+    display: flex;
+    width:100%;
+    height: 400px;
+}
+.text_imageone{
+    width: 200px;
+    height: 35px;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.detail{
+    width:600px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 450px;
+    padding-bottom: 100px;
+}
+/* start slide section */
+.slide_section{
+    background-image: url(./Library/images/second_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.slide_pone{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-top:40px;
+    color: rgb(56, 244, 90);
+}
+.slide_ptwo{
+    font-size: 25px;
+    color: rgb(205, 16, 16);
+}
+.slide_description{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+/* start form section */
+.res_one{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.res_two{
+    font-size: 30px;
+    color: gray;
+
+}
+.res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reservation{
+    width: 100%;
+    height: 600px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    margin-top: 50px;
+    margin: 20px;
+    width: 100%;
+    height: 400px;
+
+}
+.form_fox{
+    font-size: 15px;
+    margin-right:20px;
+    margin-bottom: 10px;
+    width:300px;
+    height: 45px;
+    border: none;
+    background-color: rgb(242, 236, 236);
+
+}
+.p_title{
+    font-size:20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.pt_title{
+    color: brown;
+}
+.in_form{
+ margin-right: 60px;
+}
+.button{
+    width: 250PX;
+    height: 50PX;
+    border: none;
+    background-color: rgb(254, 179, 65);
+    font-size: 20PX;
+    cursor: pointer;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 550px;
+}
+.button:hover{
+    background-color: rgb(249, 157, 45);
+}
+
+.call{
+    width:900px;
+    height: 60px;
+    background-color: #fff7f7;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    color: rgb(97, 94, 94);
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.two_box{
+    align-items: center;
+    margin-right: 300px;
+}
+
+.features{
+    background-image: url(./Library/images/third_bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+ .features.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+.feature_p{
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.featurep_two{
+    font-size: 30px;
+    color:white;
+}
+.feature_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.images_three{
+    width: 200px;
+    height: 100px;
+}
+.images_two{
+    width: 200px;
+    height: 100px;
+}
+.image_one{
+    width: 200px;
+    height: 100px;
+}
+.one_fearure{
+    display: flex;
+    background-color: white;
+}
+.two_fearures{
+    display: flex;
+    background-color: white;
+}
+.three_features{
+    display: flex;
+    background-color: white;
+    
+}
+.three_services{
+    display: flex;
+}
+.slick_slide{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
